@@ -6,7 +6,7 @@ def countdown(number)
   return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(num)
+def countdown_with_sleep
   countdown()
-  sleep(num)
+  sleep(5)
 end
